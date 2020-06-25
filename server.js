@@ -17,9 +17,9 @@ server.get('/connexion', (req, res) => {
     });
 });
 
-server.post('connexion', (req, res) => {
-    var username = req.body.username;
-})
+// server.post('connexion', (req, res) => {
+    
+// })
 server.post('/inscription', (req, res) => {
     console.log(req.body);
     const errors = [];
